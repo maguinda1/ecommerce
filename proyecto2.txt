@@ -1,0 +1,20 @@
+Home
+produtos 
+ categorias(Accesorios externos, portatiles, computadores de escritorio, arma tu setup)
+Sobre nosotros 
+Contactenos
+Search
+Login
+
+
+Pendiente
+--------------------------------------------------------------
+Paguina para renderisar el produto seleccionado y mostrar descripcion
+
+
+
+
+
+
+
+
