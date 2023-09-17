@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Home (Marlon)
 produtos (Santiago)
  categorias(Accesorios externos, portatiles, computadores de escritorio, arma tu setup)(Santiago)
@@ -5,6 +6,17 @@ Sobre nosotros(Marlon)
 Contactenos(Marlon)
 Servicio(Asesorias personalizadas, Mantenimiento)Marlon
 Login (Login registro)
+=======
+Home
+produtos 
+ categorias(Accesorios externos, portatiles, computadores de escritorio, arma tu setup)
+Sobre nosotros 
+Contactenos
+Search
+servicios (mantenimientos, accesoria personalizada)
+Login(login registro)
+
+>>>>>>> bc7efef2c0e93be52b695676bd2e25cd14b28b45
 
 Search ()
 Pendiente
