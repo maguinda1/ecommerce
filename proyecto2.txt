@@ -1,12 +1,12 @@
-Home
-produtos 
- categorias(Accesorios externos, portatiles, computadores de escritorio, arma tu setup)
-Sobre nosotros 
-Contactenos
-Search
-Login
+Home (Marlon)
+produtos (Santiago)
+ categorias(Accesorios externos, portatiles, computadores de escritorio, arma tu setup)(Santiago)
+Sobre nosotros(Marlon) 
+Contactenos(Marlon)
+Servicio(Asesorias personalizadas, Mantenimiento)Marlon
+Login (Login registro)
 
-
+Search ()
 Pendiente
 --------------------------------------------------------------
 Paguina para renderisar el produto seleccionado y mostrar descripcion
