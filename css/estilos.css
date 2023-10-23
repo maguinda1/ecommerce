@@ -28,30 +28,53 @@
 
 .card p {
     margin: 8px 0;
-    color: #555;
+    font-size: 20px;
+    color: #fff;
 }
 
 .card a {
-    padding: 8px 16px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    background-color: #05547E;
 }
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    background-color: #05547E;
+ }
 
 /* home */
 
 * {
     margin: 0;
     padding: 0;
-}
+  }
 
-body {
+  body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
+    color: #fff;
+    margin:0;
+    padding:0;
     background: linear-gradient(#141e30, #243b55);
 }
 
@@ -69,7 +92,6 @@ body {
 }
 
 .navbar {
-    position: fixed;
     top: 0;
     z-index: 1;
     display: flex;
@@ -87,14 +109,51 @@ body {
     margin: 0 1rem;
     padding: 1rem;
 }
-.navbar ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #f4f4f4;
-}
+
 
 .navbar ul li a:hover {
     color: skyblue;
+}
+
+/*navegador*/
+.dropbtn {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+.dropdown-content a:hover {background-color: #170303}
+ 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ 
+.dropdown:hover .dropbtn {
+    background: rgba(0, 0, 0, 0.7);;
 }
 
 /* end home */
@@ -103,12 +162,12 @@ body {
     content: "\e64d";
 }
 
-/* .container-menu {
+.container-menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space;
     
-} */
+} 
 
 /* carousel */
 
