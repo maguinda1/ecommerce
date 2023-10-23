@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <title>Home</title>
 </head>
 
@@ -11,23 +14,31 @@
     <header>
         <div>
             <section>
-                <div class="" name="logotipo" id="logo">
+                <div class name="logotipo" id="logo">
                     <a href="../index.html" width="150" height="150">
-                        <img src="../image/logo/MicrosoftTeams-image.png" width="150" height="150" alt="">
+                        <img src="../image/logo/MicrosoftTeams-image.png" width="150" height="150" alt>
                     </a>
                 </div>
                 <div>
-                    <nav>
+                    <nav class="navbar">
                         <ul>
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="/views/productos.html">Producto</a></li>
+
                             <li>
+                                <a href="index.html">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <span class="aux-menu-label">Inicio</span>
+                                </a>
+                            </li>
+
+                            <li><a href="/views/productos.html">Producto</a></li>
+                            <li class="submenu">
                                 <a href="#">
                                     <span>Categoria</span>
                                 </a>
-                                <ul>
+                                <ul class="submenu-content">
                                     <li>
-                                        <a href="/views/accesorios-externos.html">Accesorios externos</a>
+                                        <a href="/views/accesorios-externos.html">Accesorios
+                                            externos</a>
                                     </li>
                                     <li>
                                         <a href="/views/portatiles.html">Portatiles</a>
@@ -36,11 +47,13 @@
                                         <a href="/views/computadores-escritorio.html">Computadores</a>
                                     </li>
                                     <li>
-                                        <a href="/views/arma-setup.html">Arma tu Setup</a>
+                                        <a href="/views/arma-setup.html">Arma
+                                            tu Setup</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="/views/sobre-nosotros.html">Sobre nosotros</a></li>
+                            <li><a href="/views/sobre-nosotros.html">Sobre
+                                    nosotros</a></li>
                             <li><a href="/views/servicios.html">Servicios</a></li>
                             <li><a href="/views/contactonos.html">Contactenos</a></li>
                         </ul>
@@ -56,79 +69,86 @@
     </header>
     <hr>
     <main>
-        <div class="carousel-container">
-            <div class="carousel-slide">
-                <img src="/image/varias/varios1.webp" alt="Imagen 1" width="25%">
-            </div>
-            <div class="carousel-slide">
-                <img src="/image/varias/varios2.webp" alt="Imagen 2" width="25%">
-            </div>
-            <div class="carousel-slide">
-                <img src="/image/varias/varios3.png" alt="Imagen 3" width="25%">
-            </div>
-            <div class="carousel-slide">
-                <img src="/image/varias/varios4.png" alt="Imagen 4" width="25%">
-            </div>
+        <div class="carousel">
+            <div><img src="/image/varias/varios1.webp" alt="Imagen 1" width="25%"></div>
+            <div><img src="/image/varias/varios2.webp" alt="Imagen 2" width="25%"></div>
+            <div><img src="/image/varias/varios3.png" alt="Imagen 3" width="25%"></div>
+            <div><img src="/image/varias/varios4.png" alt="Imagen 4" width="25%"></div>
         </div>
         <hr>
-        <section>
-            <div>
-                <p>Gabinetes</p>
-                <h2>Cajas</h2>
-                <p>Chasis</p>
-                <img src="image/setup/caja1.png" alt="caja" width="25%">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere deleniti vitae, commodi nisi animi
-                    neque totam placeat at ratione temporibus quidem labore nesciunt, ea dolores aspernatur unde
-                    pariatur magnam. Hic.</p>
+
+        <section >
+            <div class="card-container">
+                <div class="card">
+
+                    <p>Gabinetes</p>
+                    <h2>Cajas</h2>
+                    <p>Chasis</p>
+                    <img src="image/setup/caja1.png" alt="caja" width="25%">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Facere deleniti vitae, commodi nisi animi
+                        neque totam placeat at ratione temporibus quidem
+                        labore nesciunt, ea dolores aspernatur unde
+                        pariatur magnam. Hic.</p>
+                </div>
             </div>
         </section>
         <hr>
-        <section>
-            <div>
+        <section class="card-container">
+            <div class="card">
                 <p>Fuente +</p>
                 <h3>Cajas</h3>
                 <h2>Combos</h2>
                 <img src="image/varias/combo1.png" alt="combo" width="25%">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere deleniti vitae, commodi nisi animi
-                    neque totam placeat at ratione temporibus quidem labore nesciunt, ea dolores aspernatur unde
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Facere deleniti vitae, commodi nisi animi
+                    neque totam placeat at ratione temporibus quidem labore
+                    nesciunt, ea dolores aspernatur unde
                     pariatur magnam. Hic.</p>
             </div>
-            <div>
+            <div class="card">
                 <p>+ Energia</p>
                 <h3>+ Potencia</h3>
                 <h2>Fuentes</h2>
                 <img src="image/setup/fuente1.png" alt="fuente" width="25%">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere deleniti vitae, commodi nisi animi
-                    neque totam placeat at ratione temporibus quidem labore nesciunt, ea dolores aspernatur unde
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Facere deleniti vitae, commodi nisi animi
+                    neque totam placeat at ratione temporibus quidem labore
+                    nesciunt, ea dolores aspernatur unde
                     pariatur magnam. Hic.</p>
             </div>
-            <div>
+            <div class="card">
                 <p>+ Liquida</p>
                 <h3>+ Cool</h3>
                 <h2>REFRIGERACIÓN</h2>
                 <img src="image/setup/refigeracion2.png" alt="refigeracion" width="25%">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere deleniti vitae, commodi nisi animi
-                    neque totam placeat at ratione temporibus quidem labore nesciunt, ea dolores aspernatur unde
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Facere deleniti vitae, commodi nisi animi
+                    neque totam placeat at ratione temporibus quidem labore
+                    nesciunt, ea dolores aspernatur unde
                     pariatur magnam. Hic.</p>
             </div>
         </section>
         <hr>
-        <section>
-            <div>
+        <section class="card-container">
+            <div class="card">
                 <img src="image/portatiles/portatil1.png" alt="portátil" width="25%">
                 <p>Todo lo que necesitas</p>
                 <h3>PORTÁTILES</h3>
                 <h2>GAMER</h2>
-                <P>Más rápido, más potentes</P>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere deleniti vitae, commodi nisi animi
-                    neque totam placeat at ratione temporibus quidem labore nesciunt, ea dolores aspernatur unde
+                <p>Más rápido, más potentes</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Facere deleniti vitae, commodi nisi animi
+                    neque totam placeat at ratione temporibus quidem labore
+                    nesciunt, ea dolores aspernatur unde
                     pariatur magnam. Hic.</p>
             </div>
         </section>
 
     </main>
     <hr>
+    
     <footer>
         <div class="pie">
             <span>
@@ -164,6 +184,9 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
