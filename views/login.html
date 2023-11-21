@@ -4,21 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <title>Login</title>
 </head>
 <body>
-    <div class="contenedor-formularios">
-        <!-- Links de los formularios -->
-        <div class="" name="logotipo" id="logo" >
-            <a href="../index.html" width="150" height="150">
-                <img src="../image/logo/MicrosoftTeams-image.png" width="150" height="150" alt="">
-            </a>
+    <header>
+        <div>
+            <section>
+                <div class="container-menu">
+                    <div class name="logotipo" id="logo">
+                        <a href="../index.html" width="150" height="150">
+                            <img src="../image/logo/MicrosoftTeams-image.png" width="150" height="150" alt>
+                        </a>
+                    </div>
+                    <div>
+                        <nav class="navbar">
+                            <ul>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                        <span class="aux-menu-label">Inicio</span>
+                                    </a>
+                                </li>
+ 
+                                <li>
+                                    <a href="/views/productos.html">
+                                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                        <span class="aux-menu-label">Productos</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropbtn">
+                                        <span>Categoria</span>
+                                    </a>
+                                    <div class="dropdown-content">
+                                        <div>
+                                            <a href="/views/accesorios-externos.html">Accesorios
+                                                externos</a>
+                                            </div>
+                                        <div>
+                                            <a href="/views/portatiles.html">Portatiles</a>
+                                        </div>
+                                        <div>
+                                            <a href="/views/computadores-escritorio.html">Computadores</a>
+                                        </div>
+                                        <div>
+                                            <a href="/views/arma-setup.html">Arma
+                                                tu Setup</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="/views/sobre-nosotros.html">
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        <span class="aux-menu-label">Sobre nosotors</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/views/servicios.html">
+                                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                                        <span class="aux-menu-label">Servicios</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/views/contactonos.html">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <span class="aux-menu-label">Contactenos</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/views/login.html">Login</a>
+                                </li>
+                                <li class="tab tab-primera">
+                                    <a href="#registrarse">Registrarse</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
         </div>
-        <ul class="contenedor-tabs">
-            <li class="tab tab-segunda active"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
-            <li class="tab tab-primera"><a href="#registrarse">Registrarse</a></li>
-        </ul>
-
+    </header>
         <!-- Contenido de los Formularios -->
         <div class="contenido-tab">
             <!-- Iniciar Sesion -->
